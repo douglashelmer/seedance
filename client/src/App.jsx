@@ -94,6 +94,11 @@ function CtaBtn() {
 export default function App() {
   return (
     <>
+      {/* ── Sticky bar ── */}
+      <div className="sticky-bar">
+        🔥 <strong>OFERTA DE LANÇAMENTO</strong> — R$ 9,90 por tempo limitado somente até <strong>15/05/2026</strong>.
+      </div>
+
       {/* ── Hero ── */}
       <section className="hero">
         <img
