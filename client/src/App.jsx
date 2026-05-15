@@ -82,11 +82,14 @@ function FaqItem({ q, a }) {
   )
 }
 
-function CtaBtn({ className = 'hero-cta' }) {
+function CtaBtn() {
   return (
-    <a href={CHECKOUT_URL} className={className} target="_blank" rel="noopener noreferrer">
-      🎁 QUERO OS 50 PROMPTS AGORA
-    </a>
+    <div className="hero-cta-wrap">
+      <a href={CHECKOUT_URL} className="hero-cta" target="_blank" rel="noopener noreferrer">
+        🎁 QUERO OS 50 PROMPTS AGORA
+      </a>
+      <p className="hero-cta-sub">Acesso imediato - R$9,90</p>
+    </div>
   )
 }
 
@@ -122,21 +125,16 @@ export default function App() {
             Com imagem inicial, referência visual e 4 aulas de como usar.{' '}
             <strong>Tudo por R$ 9,90.</strong>
           </p>
+          <div className="hero-video-wrap">
+            <iframe
+              src="https://www.youtube.com/embed/SURqiKo0GZ4?autoplay=0&rel=0&modestbranding=1"
+              title="Seedance 2.0 — demonstração"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
           <CtaBtn />
-          <p className="hero-cta-sub">Acesso imediato - R$9,90</p>
           <p className="hero-trust">🔒 Compra 100% segura · Satisfação garantida</p>
-        </div>
-      </section>
-
-      {/* ── Video ── */}
-      <section className="video-section">
-        <div className="video-wrap">
-          <iframe
-            src="https://www.youtube.com/embed/SURqiKo0GZ4?autoplay=0&rel=0&modestbranding=1"
-            title="Seedance 2.0 — demonstração"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
         </div>
       </section>
 
