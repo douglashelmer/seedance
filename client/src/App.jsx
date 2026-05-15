@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './index.css'
 
-const CHECKOUT_URL = 'https://pay.onprofit.com.br/Qcb7KV06?off=7dbIDs&utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term='
+const CHECKOUT_URL = 'https://pay.onprofit.com.br/Qcb7KV06?off=7dbIDs'
 
 const FEATURES = [
   {
