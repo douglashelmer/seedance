@@ -84,12 +84,10 @@ function FaqItem({ q, a }) {
 
 function CtaBtn() {
   return (
-    <div className="hero-cta-wrap">
-      <a href={CHECKOUT_URL} className="hero-cta" target="_blank" rel="noopener noreferrer">
-        🎁 QUERO OS 50 PROMPTS AGORA
-      </a>
-      <p className="hero-cta-sub">Acesso imediato - R$9,90</p>
-    </div>
+    <a href={CHECKOUT_URL} className="hero-cta" target="_blank" rel="noopener noreferrer">
+      <span className="hero-cta-main">🎁 QUERO OS 50 PROMPTS AGORA</span>
+      <span className="hero-cta-sub">Acesso imediato - R$9,90</span>
+    </a>
   )
 }
 
@@ -204,7 +202,7 @@ export default function App() {
             Já treinou milhares de designers e ajudou centenas a transformarem suas carreiras, reduzindo tempo de produção em até 10x e aumentando significativamente seus ganhos.
           </p>
           <a href={CHECKOUT_URL} className="hero-cta" target="_blank" rel="noopener noreferrer">
-            Garantir minha vaga agora
+            <span className="hero-cta-main">Garantir minha vaga agora</span>
           </a>
         </div>
       </section>
