@@ -84,7 +84,7 @@ function FaqItem({ q, a }) {
 
 function CtaBtn() {
   return (
-    <a href={CHECKOUT_URL} className="hero-cta" target="_blank" rel="noopener noreferrer">
+    <a href={CHECKOUT_URL} className="hero-cta">
       <span className="hero-cta-main">🎁 QUERO OS 50 PROMPTS AGORA</span>
       <span className="hero-cta-sub">Acesso imediato - R$9,90</span>
     </a>
@@ -188,7 +188,7 @@ export default function App() {
               <span className="pricing-cents">,90</span>
             </div>
             <p className="pricing-period">Pagamento único · Acesso vitalício</p>
-            <a href={CHECKOUT_URL} className="pricing-cta" target="_blank" rel="noopener noreferrer">
+            <a href={CHECKOUT_URL} className="pricing-cta">
               🎁 GARANTIR MEU ACESSO AGORA
             </a>
             <p className="pricing-cta-sub">Acesso imediato após o pagamento</p>
@@ -206,7 +206,7 @@ export default function App() {
             Pioneiro na integração de IA com workflows 3D no Brasil.{'\n\n'}
             Já treinou milhares de designers e ajudou centenas a transformarem suas carreiras, reduzindo tempo de produção em até 10x e aumentando significativamente seus ganhos.
           </p>
-          <a href={CHECKOUT_URL} className="hero-cta" target="_blank" rel="noopener noreferrer">
+          <a href={CHECKOUT_URL} className="hero-cta">
             <span className="hero-cta-main">Garantir minha vaga agora</span>
           </a>
         </div>
