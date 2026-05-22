@@ -84,7 +84,7 @@ function FaqItem({ q, a }) {
 
 function openCheckout(e) {
   e.preventDefault()
-  window.open(CHECKOUT_URL, '_blank', 'noopener,noreferrer')
+  window.open(e.currentTarget.href, '_blank', 'noopener,noreferrer')
 }
 
 function CtaBtn() {
